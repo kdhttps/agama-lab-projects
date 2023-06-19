@@ -1,1 +1,17 @@
-{}
+{
+    "user_pass_auth": {
+        "projectName": "user_pass_auth",
+        "description": "This is user credential based authentication",
+        "type": "community",
+        "author": "mmrraju",
+        "version": "0.0.1",
+        "authorWebsite": "https://github.com/mmrraju/agama-lab-projects",
+        "githubUri": "https://github.com/mmrraju/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1687195632612",
+        "tags": [
+            "authentication",
+            "jans"
+        ]
+    }
+}
