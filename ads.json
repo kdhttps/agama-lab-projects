@@ -1,0 +1,17 @@
+{
+    "user_pass_auth": {
+        "projectName": "user_pass_auth",
+        "description": "This is password based authentication",
+        "type": "community",
+        "author": "mmrraju",
+        "version": "1.0.0",
+        "authorWebsite": "https://github.com/mmrraju/agama-lab-projects",
+        "githubUri": "https://github.com/mmrraju/agama-lab-projects",
+        "license": "MIT",
+        "lastUpdated": "1687203457173",
+        "tags": [
+            "jans",
+            "authentication"
+        ]
+    }
+}
