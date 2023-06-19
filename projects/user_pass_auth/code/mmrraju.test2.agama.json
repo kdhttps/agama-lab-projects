@@ -580,7 +580,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 618,
@@ -970,8 +970,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": 10.361985322859141,
+		"y": 15.542977984288598,
 		"zoom": 1
 	}
 }
