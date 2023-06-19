@@ -226,8 +226,8 @@
 			"height": 122,
 			"id": "Agama-assignment-Node-322aa936-8af6-4b58-955e-df52b49ca211",
 			"position": {
-				"x": 505,
-				"y": 339
+				"x": 506,
+				"y": 340
 			},
 			"type": "assignment",
 			"data": {
@@ -241,8 +241,8 @@
 					"Agama-repeat-Node-81712719-f147-42b2-9278-e4db5827e07a.InRepeatBlock"
 				],
 				"position": {
-					"x": 505,
-					"y": 339
+					"x": 506,
+					"y": 340
 				},
 				"agamaData": {
 					"id": "Agama-assignment-Node-322aa936-8af6-4b58-955e-df52b49ca211",
@@ -288,11 +288,11 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 505,
-				"y": 339
+				"x": 506,
+				"y": 340
 			}
 		},
 		{
@@ -580,7 +580,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 618,
