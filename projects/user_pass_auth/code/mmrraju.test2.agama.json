@@ -1,0 +1,56 @@
+[
+  {
+    "id": "Agama-start-Flow-dcf45c10-5e36-40e2-b578-3ddf51c2be47",
+    "type": "start",
+    "sourcePosition": "right",
+    "data": {
+      "id": "Agama-start-Flow-dcf45c10-5e36-40e2-b578-3ddf51c2be47",
+      "type": "Agama-start-Flow",
+      "position": {
+        "x": 58,
+        "y": 22
+      },
+      "handles": [],
+      "inRepeatBlock": false,
+      "agamaData": {
+        "id": "Agama-start-Flow-dcf45c10-5e36-40e2-b578-3ddf51c2be47",
+        "type": "Agama-start-Flow",
+        "hasSuccess": false,
+        "hasFailure": false,
+        "hasRepeat": false,
+        "hasNoRepeat": false,
+        "inRepeatBlock": false,
+        "name": "",
+        "basepath": "",
+        "comment": "",
+        "notes": "",
+        "flowfilename": "",
+        "assignments": [],
+        "callType": "Call static method",
+        "arguments": "",
+        "logMessage": "",
+        "templatePath": "",
+        "maxIteration": "",
+        "idpAuthEndpoint": "",
+        "variableField": "",
+        "conditionInputField": "",
+        "valueField": "",
+        "returnVariable": "",
+        "javaClassName": "",
+        "javaMethodName": "",
+        "javaVariableName": "",
+        "maxIterationVariableName": "",
+        "logLevel": "",
+        "assignCallbackResult": "",
+        "displayName": "Password authentication",
+        "nodeColor": "",
+        "exceptionVariableField": "",
+        "flowname": "mmrraju.test2.agama"
+      }
+    },
+    "position": {
+      "x": 30,
+      "y": 30
+    }
+  }
+]
