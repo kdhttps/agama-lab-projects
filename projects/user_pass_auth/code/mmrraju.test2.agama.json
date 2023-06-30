@@ -553,7 +553,7 @@
 					"flowfilename": "",
 					"assignments": [
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "{}",
 							"assignedVariableName": "authResult"
 						}
@@ -580,7 +580,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 618,
