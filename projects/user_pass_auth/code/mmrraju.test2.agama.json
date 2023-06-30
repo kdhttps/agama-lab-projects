@@ -288,7 +288,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 518,
@@ -580,7 +580,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 618,
@@ -977,8 +977,8 @@
 		}
 	],
 	"viewport": {
-		"x": -0.05871379575194169,
-		"y": 26.515735811462946,
-		"zoom": 1.0000000000000004
+		"x": 9,
+		"y": 15,
+		"zoom": 1
 	}
 }
