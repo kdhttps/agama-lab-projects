@@ -9,7 +9,6 @@
           <title>web/login.ftlh</title>
           </head>
           <body id="iqi6">...
-    
-
-        <h1>${message}</h1><form method="post" enctype="application/x-www-form-urlencoded"><div><label for="username">Username</label><input type="text" name="username"/></div><div><label for="password">Password</label><input type="password" name="password"/></div><input type="submit" value="Login"/></form></body>
+  <h1>${login.error}
+  </h1><form method="post" enctype="application/x-www-form-urlencoded"><div><label for="username">Username</label><input type="text" name="username"/></div><div><label for="password">Password</label><input type="password" name="password"/></div><input type="submit" value="Login"/></form></body>
           </html>
