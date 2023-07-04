@@ -418,7 +418,7 @@
 					"callType": "Call static method",
 					"arguments": "authResult",
 					"logMessage": "",
-					"templatePath": "login2.ftlh",
+					"templatePath": "uplogin.ftlh",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
 					"variableField": "",
