@@ -261,7 +261,7 @@
 					"flowfilename": "",
 					"assignments": [
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "creds.username",
 							"assignedVariableName": "authResult.uid"
 						}
@@ -288,7 +288,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 518,
@@ -977,7 +977,7 @@
 		}
 	],
 	"viewport": {
-		"x": 9,
+		"x": 10,
 		"y": 15,
 		"zoom": 1
 	}
