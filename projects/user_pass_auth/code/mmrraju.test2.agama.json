@@ -288,7 +288,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 518,
@@ -376,7 +376,7 @@
 			"id": "Agama-rrf-Node-f1037ea1-0982-488b-b202-7fc5b519f434",
 			"position": {
 				"x": 12,
-				"y": 338
+				"y": 337
 			},
 			"type": "rrf",
 			"data": {
@@ -391,7 +391,7 @@
 				],
 				"position": {
 					"x": 12,
-					"y": 338
+					"y": 337
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-f1037ea1-0982-488b-b202-7fc5b519f434",
@@ -418,7 +418,7 @@
 					"callType": "Call static method",
 					"arguments": "authResult",
 					"logMessage": "",
-					"templatePath": "login.ftlh",
+					"templatePath": "login2.ftlh",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
 					"variableField": "",
@@ -438,11 +438,11 @@
 					"asssignedVariableName": "creds"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 12,
-				"y": 338
+				"y": 337
 			}
 		},
 		{
