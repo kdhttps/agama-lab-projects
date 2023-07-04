@@ -67,7 +67,7 @@
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1068,
@@ -226,8 +226,8 @@
 			"height": 122,
 			"id": "Agama-assignment-Node-322aa936-8af6-4b58-955e-df52b49ca211",
 			"position": {
-				"x": 505,
-				"y": 339
+				"x": 518,
+				"y": 341
 			},
 			"type": "assignment",
 			"data": {
@@ -241,8 +241,8 @@
 					"Agama-repeat-Node-81712719-f147-42b2-9278-e4db5827e07a.InRepeatBlock"
 				],
 				"position": {
-					"x": 505,
-					"y": 339
+					"x": 518,
+					"y": 341
 				},
 				"agamaData": {
 					"id": "Agama-assignment-Node-322aa936-8af6-4b58-955e-df52b49ca211",
@@ -261,7 +261,7 @@
 					"flowfilename": "",
 					"assignments": [
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "creds.username",
 							"assignedVariableName": "authResult.uid"
 						}
@@ -288,11 +288,11 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 505,
-				"y": 339
+				"x": 518,
+				"y": 341
 			}
 		},
 		{
@@ -300,8 +300,8 @@
 			"height": 122,
 			"id": "Agama-call-Node-bd5c4841-3ba5-4a4f-9e82-d796cdebc230",
 			"position": {
-				"x": 305,
-				"y": 339
+				"x": 301,
+				"y": 342
 			},
 			"type": "call",
 			"data": {
@@ -315,8 +315,8 @@
 					"Agama-repeat-Node-81712719-f147-42b2-9278-e4db5827e07a.InRepeatBlock"
 				],
 				"position": {
-					"x": 305,
-					"y": 339
+					"x": 301,
+					"y": 342
 				},
 				"agamaData": {
 					"id": "Agama-call-Node-bd5c4841-3ba5-4a4f-9e82-d796cdebc230",
@@ -366,8 +366,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 305,
-				"y": 339
+				"x": 301,
+				"y": 342
 			}
 		},
 		{
@@ -553,7 +553,7 @@
 					"flowfilename": "",
 					"assignments": [
 						{
-							"variableTypeCheck": true,
+							"variableTypeCheck": false,
 							"assignmentExpression": "{}",
 							"assignedVariableName": "authResult"
 						}
@@ -759,7 +759,13 @@
 					"comment": "",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": "",
 					"logMessage": "",
@@ -779,7 +785,8 @@
 					"displayName": "Password based authentication",
 					"nodeColor": "",
 					"exceptionVariableField": "",
-					"flowname": "mmrraju.test2.agama"
+					"flowname": "mmrraju.test2.agama",
+					"nodeIcon": "material-symbols:line-start-square"
 				}
 			},
 			"position": {
@@ -970,8 +977,8 @@
 		}
 	],
 	"viewport": {
-		"x": 9,
-		"y": 14,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
