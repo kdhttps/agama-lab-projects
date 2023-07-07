@@ -293,7 +293,7 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 518,
@@ -380,8 +380,8 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-f1037ea1-0982-488b-b202-7fc5b519f434",
 			"position": {
-				"x": 12,
-				"y": 337
+				"x": 13,
+				"y": 338
 			},
 			"type": "rrf",
 			"data": {
@@ -395,8 +395,8 @@
 					"Agama-repeat-Node-81712719-f147-42b2-9278-e4db5827e07a.InRepeatBlock"
 				],
 				"position": {
-					"x": 12,
-					"y": 337
+					"x": 13,
+					"y": 338
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-f1037ea1-0982-488b-b202-7fc5b519f434",
@@ -423,7 +423,7 @@
 					"callType": "Call static method",
 					"arguments": "authResult",
 					"logMessage": "",
-					"templatePath": "uplogin.ftlh",
+					"templatePath": "login.ftlh",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
 					"variableField": "",
@@ -443,11 +443,11 @@
 					"asssignedVariableName": "creds"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 12,
-				"y": 337
+				"x": 13,
+				"y": 338
 			}
 		},
 		{
