@@ -227,7 +227,7 @@
 			"id": "Agama-assignment-Node-322aa936-8af6-4b58-955e-df52b49ca211",
 			"position": {
 				"x": 518,
-				"y": 341
+				"y": 339
 			},
 			"type": "assignment",
 			"data": {
@@ -242,7 +242,7 @@
 				],
 				"position": {
 					"x": 518,
-					"y": 341
+					"y": 339
 				},
 				"agamaData": {
 					"id": "Agama-assignment-Node-322aa936-8af6-4b58-955e-df52b49ca211",
@@ -264,6 +264,11 @@
 							"variableTypeCheck": false,
 							"assignmentExpression": "creds.username",
 							"assignedVariableName": "authResult.uid"
+						},
+						{
+							"variableTypeCheck": false,
+							"assignmentExpression": "creds.userpassword",
+							"assignedVariableName": "authResult.pass"
 						}
 					],
 					"callType": "Call static method",
@@ -288,11 +293,11 @@
 					"nodeIcon": "material-symbols:equal"
 				}
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 518,
-				"y": 341
+				"y": 339
 			}
 		},
 		{
@@ -438,7 +443,7 @@
 					"asssignedVariableName": "creds"
 				}
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 12,
