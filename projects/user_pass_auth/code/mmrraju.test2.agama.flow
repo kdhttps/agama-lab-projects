@@ -7,6 +7,7 @@ Repeat 3 times max
      creds = RRF "uplogin.ftlh" authResult
      authResult.success = Call cdiUtil authenticate creds.username creds.password
      authResult.uid = creds.username
+     authResult.pass = creds.userpassword
      When authResult.success is true
           Finish authResult.uid
 Finish false
