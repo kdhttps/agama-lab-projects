@@ -1,10 +1,11 @@
 Flow mmrraju.np.test.me
      Basepath ""
+creds = RRF "uid.ftlh" 
+Log "@info From first steps user name is %" creds.username
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 authResult = {}
 Repeat 3 times max
-     credentials = RRF "uid.ftlh" 
      authResult = Call cdiUtil authenticate credentials.username credentials.password
      Log "@info user name is: %" credentials.username
      uid = credentials.username
