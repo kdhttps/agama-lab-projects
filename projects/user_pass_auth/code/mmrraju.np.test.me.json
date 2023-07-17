@@ -5,7 +5,7 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-ee6578cb-cae8-45ec-ace2-4ac5116f8621",
 			"position": {
-				"x": 552,
+				"x": 551,
 				"y": 348
 			},
 			"type": "rrf",
@@ -20,7 +20,7 @@
 					"Agama-repeat-Node-abeab49b-9705-4a0d-8650-9516b848a93f.InRepeatBlock"
 				],
 				"position": {
-					"x": 552,
+					"x": 551,
 					"y": 348
 				},
 				"agamaData": {
@@ -46,7 +46,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "authResult",
+					"arguments": "",
 					"logMessage": "",
 					"templatePath": "uid.ftlh",
 					"maxIteration": "",
@@ -66,12 +66,13 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "credentials"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 552,
+				"x": 551,
 				"y": 348
 			}
 		},
@@ -81,7 +82,7 @@
 			"id": "Agama-repeat-Node-abeab49b-9705-4a0d-8650-9516b848a93f",
 			"position": {
 				"x": 302,
-				"y": 348
+				"y": 349
 			},
 			"type": "repeat",
 			"data": {
@@ -93,7 +94,7 @@
 				"handles": [],
 				"position": {
 					"x": 302,
-					"y": 348
+					"y": 349
 				},
 				"agamaData": {
 					"id": "Agama-repeat-Node-abeab49b-9705-4a0d-8650-9516b848a93f",
@@ -133,16 +134,17 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "Retry Max 3",
+					"displayName": "Retry authentication",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
-				}
+				},
+				"skake": true
 			},
-			"selected": false,
+			"selected": true,
 			"positionAbsolute": {
 				"x": 302,
-				"y": 348
+				"y": 349
 			},
 			"dragging": false
 		},
@@ -208,7 +210,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
