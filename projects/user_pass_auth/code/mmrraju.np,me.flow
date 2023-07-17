@@ -1,4 +1,0 @@
-Flow mmrraju.np,me
-     Basepath ""
-creds = RRF "uid.ftlh" 
-authenticated  = Call io.jans.as.server.service.AuthenticationService#authenticate creds.username creds.password
