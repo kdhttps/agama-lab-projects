@@ -4,7 +4,6 @@ creds = RRF "uid.ftlh"
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 isAuth = Call cdiUtil authenticate creds.username creds.password
-isAuth = Call authService authenticate creds.username creds.password
 When isAuth is true
      Finish creds.username
 Finish false
