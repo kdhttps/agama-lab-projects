@@ -1,7 +1,8 @@
 Flow mmrraju.np.test.me
      Basepath ""
 creds = RRF "uid.ftlh" 
-isAuth = Call io.jans.as.server.service.AuthenticationService#authenticate creds.username creds.password
+authService = Call io.jans.as.server.service.AuthenticationService#new 
+isAuth = Call authService authenticate creds.username creds.password
 When isAuth is true
      Finish creds.username
 Finish false
