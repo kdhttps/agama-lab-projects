@@ -52,7 +52,7 @@
 					"conditionInputField": "",
 					"valueField": "",
 					"returnVariable": "",
-					"javaClassName": "package io.jans.as.server.service.AuthenticationService",
+					"javaClassName": "io.jans.as.server.service.AuthenticationService",
 					"javaMethodName": "authenticate",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
@@ -63,7 +63,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "isAuthenticated"
-				}
+				},
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
@@ -135,7 +136,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "creds"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -201,7 +203,7 @@
 					"flowname": "mmrraju.np.test.me",
 					"nodeIcon": "material-symbols:line-start-square"
 				},
-				"skake": true
+				"skake": false
 			},
 			"position": {
 				"x": 31,
