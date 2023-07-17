@@ -44,7 +44,7 @@
 					],
 					"callType": "Call static method",
 					"arguments": "",
-					"logMessage": "\"From first steps user name is %\" creds.username",
+					"logMessage": "\"From first steps user name is %\" credentials.username",
 					"templatePath": "",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
@@ -62,9 +62,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 431,
@@ -133,8 +134,9 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple",
-					"asssignedVariableName": "creds"
-				}
+					"asssignedVariableName": "credentials"
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
