@@ -1,6 +1,6 @@
 Flow mmrraju.np.test.me
      Basepath ""
-credentials = RRF "uid.ftlh" 
+credentials = RRF "login.ftlh" 
 Log "@info From first steps user name is %" credentials.username
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
