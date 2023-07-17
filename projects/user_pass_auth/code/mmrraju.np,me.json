@@ -63,9 +63,10 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "creds"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 230.93624866013238,
@@ -97,10 +98,16 @@
 					"inRepeatBlock": false,
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "This is demo",
 					"notes": "",
 					"flowfilename": "",
-					"assignments": [],
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
 					"callType": "Call static method",
 					"arguments": "",
 					"logMessage": "",
@@ -120,15 +127,16 @@
 					"displayName": "noPass",
 					"nodeColor": "",
 					"exceptionVariableField": "",
-					"flowname": "mmrraju.np,me"
+					"flowname": "mmrraju.np,me",
+					"nodeIcon": "material-symbols:line-start-square"
 				},
-				"skake": false
+				"skake": true
 			},
 			"position": {
 				"x": 30,
 				"y": 30
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 30,
