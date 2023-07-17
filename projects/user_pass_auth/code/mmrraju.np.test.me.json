@@ -65,9 +65,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 791,
@@ -191,7 +192,7 @@
 						{
 							"variableTypeCheck": false,
 							"assignmentExpression": "credentials.username",
-							"assignedVariableName": "authResult.uid"
+							"assignedVariableName": "uid"
 						}
 					],
 					"callType": "Call static method",
@@ -278,7 +279,7 @@
 					"variableField": "",
 					"conditionInputField": "",
 					"valueField": "",
-					"returnVariable": "authResult.uid",
+					"returnVariable": "uid",
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
@@ -292,7 +293,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1104,
@@ -350,7 +351,7 @@
 					"templatePath": "",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
-					"variableField": "authResult.success",
+					"variableField": "authResult",
 					"conditionInputField": "is",
 					"valueField": "true",
 					"returnVariable": "",
@@ -454,8 +455,8 @@
 			"height": 122,
 			"id": "Agama-rrf-Node-a28245f3-4d26-4c54-9514-53f614977c09",
 			"position": {
-				"x": 368,
-				"y": 576
+				"x": 374,
+				"y": 575
 			},
 			"type": "rrf",
 			"data": {
@@ -469,8 +470,8 @@
 					"Agama-repeat-Node-4494b437-c2a3-409c-8287-d4262e176a32.InRepeatBlock"
 				],
 				"position": {
-					"x": 368,
-					"y": 576
+					"x": 374,
+					"y": 575
 				},
 				"agamaData": {
 					"id": "Agama-rrf-Node-a28245f3-4d26-4c54-9514-53f614977c09",
@@ -521,8 +522,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 368,
-				"y": 576
+				"x": 374,
+				"y": 575
 			}
 		},
 		{
@@ -1098,8 +1099,8 @@
 		}
 	],
 	"viewport": {
-		"x": 191,
-		"y": -134,
+		"x": 78,
+		"y": -331,
 		"zoom": 1
 	}
 }
