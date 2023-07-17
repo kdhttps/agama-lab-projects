@@ -65,9 +65,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1080,
@@ -139,7 +140,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -199,7 +201,7 @@
 					"templatePath": "",
 					"maxIteration": "",
 					"idpAuthEndpoint": "",
-					"variableField": "success",
+					"variableField": "authResult.success",
 					"conditionInputField": "is",
 					"valueField": "true",
 					"returnVariable": "",
@@ -212,9 +214,10 @@
 					"displayName": "",
 					"nodeColor": "",
 					"exceptionVariableField": ""
-				}
+				},
+				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1725,
@@ -286,7 +289,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -300,7 +304,7 @@
 			"height": 122,
 			"id": "Agama-call-Node-5300cce4-53c4-41f6-bc89-a8a47e3fe9de",
 			"position": {
-				"x": 1324,
+				"x": 1323,
 				"y": 263
 			},
 			"type": "call",
@@ -315,7 +319,7 @@
 					"Agama-repeat-Node-8b7adef6-e2c9-4b22-8756-7dd034f0a166.InRepeatBlock"
 				],
 				"position": {
-					"x": 1324,
+					"x": 1323,
 					"y": 263
 				},
 				"agamaData": {
@@ -360,13 +364,14 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "success"
-				}
+					"asssignedVariableName": "authResult.success"
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 1324,
+				"x": 1323,
 				"y": 263
 			}
 		},
@@ -435,7 +440,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -490,7 +496,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "",
+					"arguments": "authResult",
 					"logMessage": "",
 					"templatePath": "uid.ftlh",
 					"maxIteration": "",
@@ -510,7 +516,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "ph:globe-simple",
 					"asssignedVariableName": "creds"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -581,7 +588,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -652,7 +660,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -724,7 +733,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "cdiUtil"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -796,7 +806,8 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "authService"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -1062,8 +1073,8 @@
 		}
 	],
 	"viewport": {
-		"x": -535,
-		"y": 107,
+		"x": -709,
+		"y": 11,
 		"zoom": 1
 	}
 }
