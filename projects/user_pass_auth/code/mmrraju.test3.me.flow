@@ -1,2 +1,4 @@
 Flow mmrraju.test3.me
      Basepath ""
+     Timeout 300 seconds
+authService = Call io.jans.as.server.service.AuthenticationService#class
