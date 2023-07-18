@@ -5,8 +5,8 @@ authService = Call io.jans.as.server.service.AuthenticationService#class
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 authResult = {}
 Repeat 3 times max
-     creds = RRF "uid.ftlh" 
-     success = Call authService authenticate creds.username creds.password
+     creds = RRF "uid.ftlh" authResult
+     authResult.success = Call cdiUtil authenticate creds.username creds.password
      When success is true
           cdiUtilSecond = Call io.jans.service.cdi.util.CdiUtil#bean authService
           Finish true
