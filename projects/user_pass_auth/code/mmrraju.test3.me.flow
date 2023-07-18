@@ -4,3 +4,5 @@ Flow mmrraju.test3.me
 authService = Call io.jans.as.server.service.AuthenticationService#class
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#class
 authResult = {}
+Repeat 3 times max
+     creds = RRF "uid.ftlh" 
