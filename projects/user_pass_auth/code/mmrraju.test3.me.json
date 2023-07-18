@@ -65,9 +65,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1080,
@@ -139,7 +140,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -193,8 +195,8 @@
 							"assignedVariableName": ""
 						}
 					],
-					"callType": "Call method on instance",
-					"arguments": "creds.username creds.password",
+					"callType": "Call static method",
+					"arguments": "authService",
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -203,8 +205,8 @@
 					"conditionInputField": "",
 					"valueField": "",
 					"returnVariable": "",
-					"javaClassName": "",
-					"javaMethodName": "authenticate",
+					"javaClassName": "io.jans.service.cdi.util.CdiUtil",
+					"javaMethodName": "bean",
 					"javaVariableName": "cdiUtil",
 					"maxIterationVariableName": "",
 					"logLevel": "",
@@ -213,11 +215,11 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "successAgain"
+					"asssignedVariableName": "cdiUtilSecond"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1438,
@@ -988,8 +990,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1010.4124400310445,
-		"y": -21.93007850099832,
+		"x": -1332.4124400310448,
+		"y": -204.93007850099832,
 		"zoom": 1.2996830769613295
 	}
 }
