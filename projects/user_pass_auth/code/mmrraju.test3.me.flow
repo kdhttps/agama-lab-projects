@@ -2,6 +2,7 @@ Flow mmrraju.test3.me
      Basepath ""
      Timeout 300 seconds
 authService = Call io.jans.as.server.service.AuthenticationService#class
+userService = Call io.jans.as.common.service.common.UserService#class 
 cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
 authResult = {}
 Repeat 3 times max
