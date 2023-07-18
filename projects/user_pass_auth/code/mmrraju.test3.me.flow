@@ -8,6 +8,6 @@ Repeat 3 times max
      creds = RRF "uid.ftlh" 
      success = Call authService authenticate creds.username creds.password
      When success is true
-          successAgain = Call cdiUtil authenticate creds.username creds.password
+          cdiUtilSecond = Call io.jans.service.cdi.util.CdiUtil#bean authService
           Finish true
 Finish false
