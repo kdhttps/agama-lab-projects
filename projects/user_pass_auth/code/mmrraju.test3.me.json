@@ -357,7 +357,7 @@
 					"returnVariable": "",
 					"javaClassName": "",
 					"javaMethodName": "authenticate",
-					"javaVariableName": "authService",
+					"javaVariableName": "cdiUtil",
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
@@ -365,11 +365,11 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "success"
+					"asssignedVariableName": "authResult.success"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1125,
@@ -422,7 +422,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "",
+					"arguments": "authResult",
 					"logMessage": "",
 					"templatePath": "uid.ftlh",
 					"maxIteration": "",
@@ -662,7 +662,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 430,
@@ -990,8 +990,8 @@
 		}
 	],
 	"viewport": {
-		"x": -115,
-		"y": 16,
+		"x": -613,
+		"y": -26,
 		"zoom": 1
 	}
 }
