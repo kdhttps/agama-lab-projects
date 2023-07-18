@@ -9,3 +9,5 @@ Repeat 3 times max
      success = Call authService authenticate creds.username creds.password
      When success is true
           successAgain = Call cdiUtil authenticate creds.username creds.password
+          Finish true
+Finish false
