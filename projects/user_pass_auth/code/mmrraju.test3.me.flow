@@ -12,7 +12,8 @@ Repeat 3 times max
      authResult.success = Call cdiUtilAuthService authenticate creds.username creds.password
      authResult.uid = creds.username
      When authResult.success is true
-          cdiUtilSecond = Call io.jans.service.cdi.util.CdiUtil#bean authService
+          user = Call cdiUtilAuthService getAuthenticatedUser 
+          Log "@info Authenticated user info : %" user
           Finish true
 it = {success: false, error: "Failed To Authenticated"}
 Finish it
