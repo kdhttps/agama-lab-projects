@@ -65,9 +65,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1125,
@@ -702,10 +703,10 @@
 					"hasNoRepeat": false,
 					"whenCondition": "",
 					"inRepeatBlock": true,
-					"parentId": "Agama-log-Node-dccd038a-fafe-4b04-80ab-bf1f97d5154e",
+					"parentId": "Agama-rrf-Node-07ca92ec-e477-4f5b-929b-6ead178f3224",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "Calling properties of AuthenticationService",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -727,7 +728,7 @@
 					"returnVariable": "",
 					"javaClassName": "",
 					"javaMethodName": "authenticate",
-					"javaVariableName": "cdiUtil",
+					"javaVariableName": "cdiUtilAuthService",
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
@@ -739,7 +740,7 @@
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1325,
@@ -1390,8 +1391,8 @@
 		}
 	],
 	"viewport": {
-		"x": -785,
-		"y": 36,
+		"x": -798,
+		"y": 7,
 		"zoom": 1
 	}
 }
