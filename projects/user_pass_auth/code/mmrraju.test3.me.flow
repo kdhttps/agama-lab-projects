@@ -4,6 +4,7 @@ Flow mmrraju.test3.me
 authServiceInstance = Call io.jans.as.server.service.AuthenticationService#class 
 userServiceInstance = Call io.jans.as.common.service.common.UserService#class 
 cdiUtilAuthService = Call io.jans.service.cdi.util.CdiUtil#bean authServiceInstance
+cdiUtilUserService = Call io.jans.service.cdi.util.CdiUtil#bean userServiceInstance
 authResult = {}
 Repeat 3 times max
      creds = RRF "uid.ftlh" authResult
