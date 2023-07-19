@@ -12,4 +12,5 @@ Repeat 3 times max
      When authResult.success is true
           cdiUtilSecond = Call io.jans.service.cdi.util.CdiUtil#bean authService
           Finish true
-Finish false
+it = {success: false, error: "Failed To Authenticated"}
+Finish it
