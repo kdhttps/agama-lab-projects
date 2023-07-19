@@ -65,9 +65,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1838,
@@ -1471,8 +1472,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1068.0184769394384,
-		"y": -175.2454834100473,
-		"zoom": 1.0281138266560665
+		"x": -240.00075668753846,
+		"y": 90.62334298122329,
+		"zoom": 1.0281138266560663
 	}
 }
