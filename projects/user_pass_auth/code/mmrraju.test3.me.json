@@ -63,13 +63,14 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "cdiUtilUserService"
-				}
+				},
+				"skake": false
 			},
 			"positionAbsolute": {
 				"x": 830,
 				"y": 29
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false
 		},
 		{
@@ -706,7 +707,7 @@
 					"parentId": "Agama-repeat-Node-d07d7f19-d14b-4c56-8075-74c2084eea40",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "Grab user data",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -1309,8 +1310,8 @@
 		}
 	],
 	"viewport": {
-		"x": -273,
-		"y": 176,
+		"x": -772,
+		"y": -32,
 		"zoom": 1
 	}
 }
