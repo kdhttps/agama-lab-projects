@@ -141,7 +141,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 430,
@@ -862,7 +862,7 @@
 						}
 					],
 					"callType": "Call static method",
-					"arguments": "authService",
+					"arguments": "authServiceInstance",
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -877,15 +877,15 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "cdiUtil",
+					"displayName": "cdiUtilAuthService",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "cdiUtil"
+					"asssignedVariableName": "cdiUtilAuthService"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 630,
@@ -1231,8 +1231,8 @@
 		}
 	],
 	"viewport": {
-		"x": 10,
-		"y": 15,
+		"x": -228,
+		"y": 131,
 		"zoom": 1
 	}
 }
