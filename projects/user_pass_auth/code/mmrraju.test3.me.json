@@ -65,7 +65,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
@@ -106,7 +107,7 @@
 					"parentId": "Agama-call-Node-ef1cb606-179a-4b90-ac1f-2ac32894cdc3",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "Create User Service Instance",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -132,15 +133,15 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "userService",
+					"displayName": "userServiceInstance",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "userService"
+					"asssignedVariableName": "userServiceInstance"
 				},
 				"skake": false
 			},
-			"selected": false,
+			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 430,
@@ -290,7 +291,7 @@
 				},
 				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1483.125,
@@ -923,7 +924,7 @@
 					"parentId": "Agama-start-Flow-45ecde65-f434-4af6-a750-c871d0c9337e",
 					"name": "",
 					"basepath": "",
-					"comment": "",
+					"comment": "Create and Instance of authService ",
 					"notes": "",
 					"flowfilename": "",
 					"assignments": [
@@ -933,7 +934,7 @@
 							"assignedVariableName": ""
 						}
 					],
-					"callType": "Get class object",
+					"callType": "Call static method",
 					"arguments": "",
 					"logMessage": "",
 					"templatePath": "",
@@ -944,16 +945,16 @@
 					"valueField": "",
 					"returnVariable": "",
 					"javaClassName": "io.jans.as.server.service.AuthenticationService",
-					"javaMethodName": "",
+					"javaMethodName": "class",
 					"javaVariableName": "",
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "authService",
+					"displayName": "authServiceInstance",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
-					"asssignedVariableName": "authService"
+					"asssignedVariableName": "authServiceInstance"
 				},
 				"skake": false
 			},
@@ -1230,8 +1231,8 @@
 		}
 	],
 	"viewport": {
-		"x": -647.125,
-		"y": 46,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
