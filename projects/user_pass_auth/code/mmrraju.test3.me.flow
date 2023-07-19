@@ -3,7 +3,7 @@ Flow mmrraju.test3.me
      Timeout 300 seconds
 authServiceInstance = Call io.jans.as.server.service.AuthenticationService#class 
 userServiceInstance = Call io.jans.as.common.service.common.UserService#class 
-cdiUtil = Call io.jans.service.cdi.util.CdiUtil#bean authService
+cdiUtilAuthService = Call io.jans.service.cdi.util.CdiUtil#bean authServiceInstance
 authResult = {}
 Repeat 3 times max
      creds = RRF "uid.ftlh" authResult
