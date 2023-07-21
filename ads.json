@@ -4,7 +4,7 @@
         "description": "This is password based authentication",
         "type": "community",
         "author": "mmrraju",
-        "version": "1.0.32",
+        "version": "1.0.33",
         "authorWebsite": "https://github.com/mmrraju/agama-lab-projects",
         "githubUri": "https://github.com/mmrraju/agama-lab-projects",
         "license": "MIT",
