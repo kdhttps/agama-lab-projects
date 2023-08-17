@@ -46,7 +46,7 @@
 					"arguments": "",
 					"logMessage": "",
 					"templatePath": "",
-					"maxIteration": "3",
+					"maxIteration": "2",
 					"idpAuthEndpoint": "",
 					"variableField": "",
 					"conditionInputField": "",
@@ -58,7 +58,7 @@
 					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
-					"displayName": "Max re-try",
+					"displayName": "max re-try",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
