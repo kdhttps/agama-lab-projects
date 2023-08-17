@@ -8,3 +8,4 @@ authResult = {}
 Repeat 2 times max
      creds = RRF "uid.ftlh" authResult
      authResult.success = Call authServiceBean authenticate creds.username creds.userpassword
+     Log "@trace User name %" creds.username
