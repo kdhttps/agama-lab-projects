@@ -3,6 +3,77 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-rrf-Node-cd2cba20-0995-4dc8-8bde-31a59a08dfb5",
+			"position": {
+				"x": 1325.1297676883544,
+				"y": 338
+			},
+			"type": "rrf",
+			"data": {
+				"id": "Agama-rrf-Node-cd2cba20-0995-4dc8-8bde-31a59a08dfb5",
+				"type": "Agama-rrf-Node",
+				"parentId": "Agama-repeat-Node-f82c0e30-7def-466d-bc3b-5ea2edac175a",
+				"whenCondition": "",
+				"inRepeatBlock": true,
+				"position": {
+					"x": 1325.1297676883544,
+					"y": 338
+				},
+				"agamaData": {
+					"id": "Agama-rrf-Node-cd2cba20-0995-4dc8-8bde-31a59a08dfb5",
+					"type": "Agama-rrf-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"whenCondition": "",
+					"inRepeatBlock": true,
+					"parentId": "Agama-repeat-Node-f82c0e30-7def-466d-bc3b-5ea2edac175a",
+					"name": "",
+					"basepath": "",
+					"comment": "Create a login page",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "authResult",
+					"logMessage": "",
+					"templatePath": "uid.ftlh",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Login page",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"nodeIcon": "ph:globe-simple",
+					"asssignedVariableName": "creds"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 1325.1297676883544,
+				"y": 338
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-repeat-Node-f82c0e30-7def-466d-bc3b-5ea2edac175a",
 			"position": {
 				"x": 1230.1297676883544,
@@ -63,9 +134,9 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
 				},
-				"skake": true
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 1230.1297676883544,
@@ -596,11 +667,29 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-repeat-Node-f82c0e30-7def-466d-bc3b-5ea2edac175a-Agama-rrf-Node-cd2cba20-0995-4dc8-8bde-31a59a08dfb5-9e9caad4-91ce-43ea-9603-4e51a9d1bcba",
+			"type": "straight",
+			"source": "Agama-repeat-Node-f82c0e30-7def-466d-bc3b-5ea2edac175a",
+			"target": "Agama-rrf-Node-cd2cba20-0995-4dc8-8bde-31a59a08dfb5",
+			"label": "In Block",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			},
+			"sourceHandle": "Agama-repeat-Node-f82c0e30-7def-466d-bc3b-5ea2edac175a.InRepeatBlock"
 		}
 	],
 	"viewport": {
-		"x": -1164.938634370392,
-		"y": 7.461622315064744,
-		"zoom": 1.3566043274476738
+		"x": -873,
+		"y": 97,
+		"zoom": 1
 	}
 }
