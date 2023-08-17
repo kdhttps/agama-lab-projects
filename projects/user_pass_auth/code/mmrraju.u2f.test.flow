@@ -1,2 +1,3 @@
 Flow mmrraju.u2f.test
      Basepath ""
+authService = Call io.jans.as.server.service.AuthenticationService#class 
