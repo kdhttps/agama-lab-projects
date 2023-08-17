@@ -38,7 +38,8 @@
 				"handles": [
 					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.FAILURE",
 					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.SUCCESS"
-				]
+				],
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
