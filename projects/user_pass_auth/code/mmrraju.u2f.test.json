@@ -1,6 +1,53 @@
 {
 	"nodes": [
 		{
+			"width": 210,
+			"height": 140,
+			"id": "Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa",
+			"position": {
+				"x": 1924.1297676883544,
+				"y": 337
+			},
+			"parentId": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
+			"type": "when",
+			"data": {
+				"id": "Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa",
+				"type": "Agama-when-Node",
+				"parentId": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
+				"whenCondition": "",
+				"inRepeatBlock": true,
+				"position": {
+					"x": 1924.1297676883544,
+					"y": 337
+				},
+				"agamaData": {
+					"id": "Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa",
+					"parentId": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
+					"type": "Agama-when-Node",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"variableField": "authResult.sccess",
+					"conditionInputField": "is",
+					"valueField": "true"
+				},
+				"handles": [
+					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.FAILURE",
+					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.SUCCESS"
+				]
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 1924.1297676883544,
+				"y": 337
+			}
+		},
+		{
 			"width": 170,
 			"height": 122,
 			"id": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
@@ -61,7 +108,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "octicon:log-16"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"positionAbsolute": {
@@ -862,11 +910,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1-Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa-dd28223c-4b1f-4733-b0bf-78b9f2655152",
+			"type": "straight",
+			"source": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
+			"target": "Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": -2684.9327401128235,
-		"y": -372.2286700893836,
-		"zoom": 1.6934906247250543
+		"x": -1841.2824539596004,
+		"y": -121.85619739118056,
+		"zoom": 1.2141948843950467
 	}
 }
