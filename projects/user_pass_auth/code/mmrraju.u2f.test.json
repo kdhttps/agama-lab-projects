@@ -5,8 +5,8 @@
 			"height": 140,
 			"id": "Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa",
 			"position": {
-				"x": 1924.1297676883544,
-				"y": 337
+				"x": 1922.4825856538193,
+				"y": 338.64718203453515
 			},
 			"parentId": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
 			"type": "when",
@@ -17,8 +17,8 @@
 				"whenCondition": "",
 				"inRepeatBlock": true,
 				"position": {
-					"x": 1924.1297676883544,
-					"y": 337
+					"x": 1922.4825856538193,
+					"y": 338.64718203453515
 				},
 				"agamaData": {
 					"id": "Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa",
@@ -31,7 +31,7 @@
 							"assignedVariableName": ""
 						}
 					],
-					"variableField": "authResult.sccess",
+					"variableField": "authResult.success",
 					"conditionInputField": "is",
 					"valueField": "true"
 				},
@@ -44,8 +44,8 @@
 			"selected": true,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 1924.1297676883544,
-				"y": 337
+				"x": 1922.4825856538193,
+				"y": 338.64718203453515
 			}
 		},
 		{
