@@ -39,7 +39,7 @@
 					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.FAILURE",
 					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.SUCCESS"
 				],
-				"skake": false
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
@@ -53,8 +53,8 @@
 			"height": 122,
 			"id": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
 			"position": {
-				"x": 1724.1297676883544,
-				"y": 337
+				"x": 1725.1297676883544,
+				"y": 336
 			},
 			"type": "log",
 			"data": {
@@ -64,8 +64,8 @@
 				"whenCondition": "",
 				"inRepeatBlock": true,
 				"position": {
-					"x": 1724.1297676883544,
-					"y": 337
+					"x": 1725.1297676883544,
+					"y": 336
 				},
 				"agamaData": {
 					"id": "Agama-log-Node-905599df-4e38-4ad5-8006-ebccfbaaa7f1",
@@ -114,8 +114,8 @@
 			},
 			"selected": false,
 			"positionAbsolute": {
-				"x": 1724.1297676883544,
-				"y": 337
+				"x": 1725.1297676883544,
+				"y": 336
 			},
 			"dragging": false
 		},
@@ -161,7 +161,7 @@
 						}
 					],
 					"callType": "Call method on instance",
-					"arguments": "creds.username creds.userpassword",
+					"arguments": "creds.username creds.password",
 					"logMessage": "",
 					"templatePath": "",
 					"maxIteration": "",
@@ -931,8 +931,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1522,
-		"y": -92,
+		"x": -1055,
+		"y": -113,
 		"zoom": 1
 	}
 }
