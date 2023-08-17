@@ -7,3 +7,4 @@ userServiceBean = Call io.jans.service.cdi.util.CdiUtil#bean userService
 authResult = {}
 Repeat 2 times max
      creds = RRF "uid.ftlh" authResult
+     authResult.success = Call authServiceBean authenticate creds.username creds.userpassword
