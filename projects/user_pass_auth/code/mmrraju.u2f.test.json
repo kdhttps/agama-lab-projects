@@ -3,6 +3,77 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-c702a8ed-0f33-4e76-b8c5-48502363ebb6",
+			"position": {
+				"x": 830.1297676883544,
+				"y": 108
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-c702a8ed-0f33-4e76-b8c5-48502363ebb6",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-call-Node-3462d223-d1e5-42c3-9541-2b51be6c2e40",
+				"whenCondition": "",
+				"inRepeatBlock": false,
+				"position": {
+					"x": 830.1297676883544,
+					"y": 108
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-c702a8ed-0f33-4e76-b8c5-48502363ebb6",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"whenCondition": "",
+					"inRepeatBlock": false,
+					"parentId": "Agama-call-Node-3462d223-d1e5-42c3-9541-2b51be6c2e40",
+					"name": "",
+					"basepath": "",
+					"comment": "Create a bean of userService instance using cdiUtil",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call static method",
+					"arguments": "userService",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "io.jans.service.cdi.util.CdiUtil",
+					"javaMethodName": "bean",
+					"javaVariableName": "",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "userServiceBean ",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "userServiceBean"
+				}
+			},
+			"selected": true,
+			"positionAbsolute": {
+				"x": 830.1297676883544,
+				"y": 108
+			},
+			"dragging": false
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-call-Node-3462d223-d1e5-42c3-9541-2b51be6c2e40",
 			"position": {
 				"x": 629.283022375992,
@@ -62,9 +133,10 @@
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:code",
 					"asssignedVariableName": "userService"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 629.283022375992,
@@ -329,11 +401,28 @@
 				"color": "#fff",
 				"fillOpacity": 0.7
 			}
+		},
+		{
+			"id": "Agama-call-Node-3462d223-d1e5-42c3-9541-2b51be6c2e40-Agama-call-Node-c702a8ed-0f33-4e76-b8c5-48502363ebb6-efa1839c-42de-4f18-acfd-b5c41737e78c",
+			"type": "straight",
+			"source": "Agama-call-Node-3462d223-d1e5-42c3-9541-2b51be6c2e40",
+			"target": "Agama-call-Node-c702a8ed-0f33-4e76-b8c5-48502363ebb6",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": -13.341038862937012,
-		"y": 51.74747148012233,
+		"x": -14.341038862937012,
+		"y": 50.74747148012233,
 		"zoom": 1.180992661429531
 	}
 }
