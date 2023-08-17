@@ -55,14 +55,15 @@
 					"javaClassName": "",
 					"javaMethodName": "",
 					"javaVariableName": "",
-					"maxIterationVariableName": "steps",
+					"maxIterationVariableName": "",
 					"logLevel": "",
 					"assignCallbackResult": "",
 					"displayName": "Max re-try",
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:event-repeat-outline-rounded"
-				}
+				},
+				"skake": true
 			},
 			"selected": true,
 			"dragging": false,
@@ -132,7 +133,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
 			"selected": false,
 			"dragging": false,
