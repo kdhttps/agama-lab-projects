@@ -5,4 +5,4 @@ authServiceBean = Call io.jans.service.cdi.util.CdiUtil#bean authService
 userService = Call io.jans.as.server.service.UserService#class 
 userServiceBean = Call io.jans.service.cdi.util.CdiUtil#bean userService
 authResult = {}
-Repeat 3 times max
+Repeat 2 times max
