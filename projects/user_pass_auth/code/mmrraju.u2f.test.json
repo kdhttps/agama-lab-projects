@@ -39,7 +39,7 @@
 					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.FAILURE",
 					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.SUCCESS"
 				],
-				"skake": true
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -931,8 +931,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1841.2824539596004,
-		"y": -121.85619739118056,
-		"zoom": 1.2141948843950467
+		"x": -1522,
+		"y": -92,
+		"zoom": 1
 	}
 }
