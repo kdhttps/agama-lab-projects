@@ -3,6 +3,77 @@
 		{
 			"width": 170,
 			"height": 122,
+			"id": "Agama-call-Node-452ecc5f-2462-4bc0-a8fb-ab9be04d76fa",
+			"position": {
+				"x": 2235.482585653819,
+				"y": 568.6471820345351
+			},
+			"type": "call",
+			"data": {
+				"id": "Agama-call-Node-452ecc5f-2462-4bc0-a8fb-ab9be04d76fa",
+				"type": "Agama-call-Node",
+				"parentId": "Agama-assignment-Node-7de0632a-4de7-432a-bfb9-951494e92222",
+				"whenCondition": "",
+				"inRepeatBlock": true,
+				"position": {
+					"x": 2235.482585653819,
+					"y": 568.6471820345351
+				},
+				"agamaData": {
+					"id": "Agama-call-Node-452ecc5f-2462-4bc0-a8fb-ab9be04d76fa",
+					"type": "Agama-call-Node",
+					"hasSuccess": false,
+					"hasFailure": false,
+					"hasRepeat": false,
+					"hasNoRepeat": false,
+					"whenCondition": "",
+					"inRepeatBlock": true,
+					"parentId": "Agama-assignment-Node-7de0632a-4de7-432a-bfb9-951494e92222",
+					"name": "",
+					"basepath": "",
+					"comment": "Find the user with userServiceBean instance.",
+					"notes": "",
+					"flowfilename": "",
+					"assignments": [
+						{
+							"variableTypeCheck": true,
+							"assignmentExpression": "",
+							"assignedVariableName": ""
+						}
+					],
+					"callType": "Call method on instance",
+					"arguments": "creds.username",
+					"logMessage": "",
+					"templatePath": "",
+					"maxIteration": "",
+					"idpAuthEndpoint": "",
+					"variableField": "",
+					"conditionInputField": "",
+					"valueField": "",
+					"returnVariable": "",
+					"javaClassName": "",
+					"javaMethodName": "getUser",
+					"javaVariableName": "userServiceBean",
+					"maxIterationVariableName": "",
+					"logLevel": "",
+					"assignCallbackResult": "",
+					"displayName": "Find User",
+					"nodeColor": "",
+					"exceptionVariableField": "",
+					"nodeIcon": "material-symbols:code",
+					"asssignedVariableName": "findUser"
+				}
+			},
+			"selected": true,
+			"dragging": false,
+			"positionAbsolute": {
+				"x": 2235.482585653819,
+				"y": 568.6471820345351
+			}
+		},
+		{
+			"width": 170,
+			"height": 122,
 			"id": "Agama-assignment-Node-7de0632a-4de7-432a-bfb9-951494e92222",
 			"position": {
 				"x": 2035.4825856538193,
@@ -61,9 +132,10 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:equal"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
 				"x": 2035.4825856538193,
@@ -1017,11 +1089,28 @@
 				"fillOpacity": 0.7
 			},
 			"sourceHandle": "Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.SUCCESS"
+		},
+		{
+			"id": "Agama-assignment-Node-7de0632a-4de7-432a-bfb9-951494e92222-Agama-call-Node-452ecc5f-2462-4bc0-a8fb-ab9be04d76fa-5e864776-6ecf-4b5b-9e7a-de028c13356f",
+			"type": "straight",
+			"source": "Agama-assignment-Node-7de0632a-4de7-432a-bfb9-951494e92222",
+			"target": "Agama-call-Node-452ecc5f-2462-4bc0-a8fb-ab9be04d76fa",
+			"label": "",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"labelBgStyle": {
+				"fill": "#FFCC00",
+				"color": "#fff",
+				"fillOpacity": 0.7
+			}
 		}
 	],
 	"viewport": {
-		"x": -2195.572097307335,
-		"y": -337.63614920491966,
-		"zoom": 1.1809926614295305
+		"x": -1554,
+		"y": -335,
+		"zoom": 1
 	}
 }
