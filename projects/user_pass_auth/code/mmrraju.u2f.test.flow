@@ -12,3 +12,4 @@ Repeat 2 times max
      When authResult.success is true
           findUser = {}
           findUser = Call userServiceBean getUser creds.username
+          Finish creds.username
