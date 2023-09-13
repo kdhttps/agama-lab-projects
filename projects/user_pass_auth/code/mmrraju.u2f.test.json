@@ -62,7 +62,8 @@
 					"nodeColor": "",
 					"exceptionVariableField": "",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -248,7 +249,8 @@
 					"variableField": "authResult.success",
 					"conditionInputField": "is",
 					"valueField": "true",
-					"hasSuccess": true
+					"hasSuccess": true,
+					"flowname": "mmrraju.u2f.test"
 				},
 				"handles": [
 					"Agama-when-Node-c10a1450-adf5-483e-bc91-82ae7c0366aa.FAILURE",
@@ -1198,8 +1200,8 @@
 		}
 	],
 	"viewport": {
-		"x": -1841,
-		"y": -225,
+		"x": 10,
+		"y": 15,
 		"zoom": 1
 	}
 }
