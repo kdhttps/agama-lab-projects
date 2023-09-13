@@ -2,7 +2,8 @@ Flow mmrraju.u2f.test
      Basepath ""
 authService = Call io.jans.as.server.service.AuthenticationService#class 
 authServiceBean = Call io.jans.service.cdi.util.CdiUtil#bean authService
-userService = Call io.jans.as.server.service.UserService#class 
+// Crean an userService instance.
+userService = Call io.jans.as.common.service.common.UserService#class 
 userServiceBean = Call io.jans.service.cdi.util.CdiUtil#bean userService
 authResult = {}
 Repeat 2 times max
