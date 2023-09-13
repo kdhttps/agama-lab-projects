@@ -14,8 +14,7 @@
             "authentication"
         ],
         "configs": {
-            "mmrraju.holistic.mmrraju.u2f.test": {},
-            "mmrraju.u2f.test": {}
+            "mmrraju.holistic.mmrraju.u2f.test": {}
         },
         "noDirectLaunch": []
     }
