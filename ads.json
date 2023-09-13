@@ -12,6 +12,10 @@
         "tags": [
             "jans",
             "authentication"
-        ]
+        ],
+        "configs": {
+            "mmrraju.u2f.test": {}
+        },
+        "noDirectLaunch": []
     }
 }
