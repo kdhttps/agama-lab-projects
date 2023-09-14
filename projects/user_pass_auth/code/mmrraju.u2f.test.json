@@ -973,7 +973,8 @@
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16",
 					"flowname": "mmrraju.u2f.test"
-				}
+				},
+				"skake": false
 			},
 			"selected": true,
 			"dragging": false,
@@ -1304,8 +1305,8 @@
 		}
 	],
 	"viewport": {
-		"x": -2669.613754731561,
-		"y": -591.4893426264457,
-		"zoom": 1.3947436663504058
+		"x": -2305.3415253372073,
+		"y": -207.0114491643069,
+		"zoom": 1.1486983549970358
 	}
 }
