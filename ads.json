@@ -4,7 +4,7 @@
         "description": "This is password based authentication",
         "type": "community",
         "author": "mmrraju",
-        "version": "1.0.38",
+        "version": "1.0.39",
         "authorWebsite": "https://github.com/mmrraju/agama-lab-projects",
         "githubUri": "https://github.com/mmrraju/agama-lab-projects",
         "license": "MIT",
@@ -17,7 +17,7 @@
             "mmrraju.holistic.mmrraju.u2f.test": {},
             "mmrraju.spiffy.mmrraju.u2f.test": {},
             "mmrraju.gainful.mmrraju.u2f.test": {},
-            "mmrraju.u2f.test": {}
+            "mmrraju.glossy.mmrraju.u2f.test": {}
         },
         "noDirectLaunch": []
     }
