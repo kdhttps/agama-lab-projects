@@ -1202,9 +1202,10 @@
 					"configParams": "{}",
 					"nodeIcon": "octicon:log-16",
 					"flowname": "mmrraju.u2f.test"
-				}
+				},
+				"skake": false
 			},
-			"selected": true,
+			"selected": false,
 			"positionAbsolute": {
 				"x": 3100.833926713907,
 				"y": 563.5755695834565
@@ -1216,8 +1217,8 @@
 			"height": 122,
 			"id": "finish-8fb213ad-96c4-4578-b510-c407242f560c",
 			"position": {
-				"x": 3372.0590366051188,
-				"y": 568.2359360801368
+				"x": 3350.4405097766876,
+				"y": 561.95958958156
 			},
 			"type": "finish",
 			"data": {
@@ -1228,8 +1229,8 @@
 				"inRepeatBlock": "",
 				"handles": [],
 				"position": {
-					"x": 3372.0590366051188,
-					"y": 568.2359360801368
+					"x": 3350.4405097766876,
+					"y": 561.95958958156
 				},
 				"agamaData": {
 					"id": "finish-8fb213ad-96c4-4578-b510-c407242f560c",
@@ -1282,8 +1283,8 @@
 			"selected": false,
 			"dragging": false,
 			"positionAbsolute": {
-				"x": 3372.0590366051188,
-				"y": 568.2359360801368
+				"x": 3350.4405097766876,
+				"y": 561.95958958156
 			},
 			"parentId": "Agama-log-Node-e767431e-fa1f-45e1-9098-eccc4a36aa87",
 			"whenCondition": "",
@@ -1624,8 +1625,8 @@
 		}
 	],
 	"viewport": {
-		"x": -2663.060156541689,
-		"y": -386.0182505535305,
-		"zoom": 1.0281138266560663
+		"x": -4274.386638394114,
+		"y": -580.3717843148454,
+		"zoom": 1.4339552480158277
 	}
 }
