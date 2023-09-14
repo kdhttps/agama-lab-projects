@@ -20,4 +20,5 @@ Repeat 2 times max
           // Get user mail
           userMail = Call userServiceBean getCustomAttribute findUser "mail"
           user_mail = userMail.getValue
+          Log "@trace User mail %" userMail " and %" user_mail
           Finish creds.username
