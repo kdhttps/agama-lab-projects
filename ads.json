@@ -15,7 +15,8 @@
         ],
         "configs": {
             "mmrraju.holistic.mmrraju.u2f.test": {},
-            "mmrraju.spiffy.mmrraju.u2f.test": {}
+            "mmrraju.spiffy.mmrraju.u2f.test": {},
+            "mmrraju.u2f.test": {}
         },
         "noDirectLaunch": []
     }
