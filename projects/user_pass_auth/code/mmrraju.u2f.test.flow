@@ -17,4 +17,5 @@ Repeat 2 times max
           findUser = Call userServiceBean getUserByAttribute "jansExtUid" creds.username
           // See authenticated user details
           Log "@trace Authenticated user details %" findUser
+          Call __________#__________ 
           Finish creds.username
