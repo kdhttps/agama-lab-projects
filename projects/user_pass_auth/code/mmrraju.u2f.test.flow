@@ -9,8 +9,10 @@ authResult = {}
 Repeat 2 times max
      creds = RRF "uid.ftlh" authResult
      authResult.success = Call authServiceBean authenticate creds.username creds.password
+     // print user name in logs file.
      Log "@trace User name %" creds.username
      When authResult.success is true
           findUser = {}
-          findUser = Call userServiceBean getUser creds.username
+          // Find the user with userServiceBean instance.
+          findUser = Call userServiceBean getUserByAttribute "jansExtUid" creds.username
           Finish creds.username
